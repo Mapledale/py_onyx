@@ -1,4 +1,9 @@
-""" A collection of differnet types of logging """
+""" A collection of differnet types of logging
+
+Also refer to Python HOWTOs - Logging Cookbook:
+https://docs.python.org/3/howto/logging-cookbook.html#\
+using-concurrent-futures-processpoolexecutor
+"""
 from concurrent.futures import ThreadPoolExecutor
 import logging
 import os
